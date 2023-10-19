@@ -14,7 +14,7 @@ namespace Tyuiu.DudkovIE.Sprint1.Task7.V21
             double x, y;
             x = double.Parse(Console.ReadLine());
             y = double.Parse(Console.ReadLine());
-            
+
 
             DataService ds = new DataService();
             Console.Title = "Спринт #1 | Выполнил: Дудков И. Е. | СМАРТб-23-1";
@@ -44,7 +44,7 @@ namespace Tyuiu.DudkovIE.Sprint1.Task7.V21
 
 
 
-            Console.ReadKey();                  
+            Console.ReadKey()
         }
     }
 }
